@@ -7,6 +7,30 @@ body {
   padding: 0;
 }
 
+/* Header Section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  background-color: transparent;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #00ffff;
+  margin: 0;
+}
+
+/* Container */
 .container {
   max-width: 400px;
   margin: 50px auto;
@@ -22,6 +46,7 @@ h2 {
   color: #00ffff;
 }
 
+/* Form Inputs */
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -32,6 +57,7 @@ input[type="password"] {
   border-radius: 5px;
 }
 
+/* Buttons */
 button {
   width: 100%;
   padding: 10px;
@@ -66,3 +92,18 @@ button:hover {
   background-color: #cc0000;
 }
 
+/* Responsive Design */
+@media (max-width: 600px) {
+  .logo {
+    max-width: 100px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .container {
+    margin: 30px 10px;
+    padding: 20px;
+  }
+}
