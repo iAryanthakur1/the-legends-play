@@ -167,3 +167,34 @@ button {
   100% { box-shadow: 0 0 5px #00ffff; }
 }
 <p class="tagline"><span id="typed"></span></p>
+.hero {
+  height: 100vh;
+  background: url('assets/bg.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  padding: 12px 24px;
+  background-color: #00ffff;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00ffff;
+}
