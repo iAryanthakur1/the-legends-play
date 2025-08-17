@@ -149,3 +149,11 @@ nav a:hover {
   color: #000;
   box-shadow: 0 0 10px #00ffff;
 }
+body {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
