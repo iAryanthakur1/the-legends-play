@@ -1,28 +1,15 @@
+<!-- dashboard.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Dashboard - THE LEGENDS PLAY</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="dashboard-container">
-    <h2>Welcome, <span id="displayUsername"></span>!</h2>
-    <p>Your Wallet Balance: ₹<span id="walletBalance">0</span></p>
-
-    <div class="game-links">
-      <h3>Available Games</h3>
-      <ul>
-        <li><a href="#">Game 1</a></li>
-        <li><a href="#">Game 2</a></li>
-        <li><a href="#">Game 3</a></li>
-      </ul>
-    </div>
-
-    <button onclick="logout()">Logout</button>
-  </div>
-
-  <script src="scripts/main.js"></script>
+  <h2>Welcome, <span id="user"></span></h2>
+  <p>Wallet: ₹<span id="wallet"></span></p>
+  <button onclick="playGame()">Play Game</button>
+  <script src="js/dashboard.js"></script>
 </body>
 </html>
 
